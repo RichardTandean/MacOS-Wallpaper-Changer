@@ -54,10 +54,4 @@ rm -rf "${BUILD_DIR}"
 rm -rf "${DMG_DIR}"
 
 echo "🎉 DMG created successfully: ${DMG_NAME}.dmg"
-echo "📍 Location: $(pwd)/${DMG_NAME}.dmg"
-
-# Make script executable
-chmod +x build_dmg.sh
-
-# Build DMG automatically
-./build_dmg.sh 
+echo "📍 Location: $(pwd)/${DMG_NAME}.dmg" 
